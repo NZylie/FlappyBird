@@ -1,0 +1,33 @@
+export const theme = {
+  sky: '#70C5CE',
+  skyTop: '#4EC0CA',
+  skyMid: '#87CEEB',
+  skyBottom: '#B0E0E6',
+  ground: '#DED895',
+  grass: '#6B8E23',
+  pipe: '#73BF2E',
+  pipeBorder: '#4A7A1E',
+  white: '#FFFFFF',
+  black: '#000000',
+  scoreText: '#FFFFFF',
+  gameOverBg: 'rgba(0,0,0,0.55)',
+  cardBg: '#FFF8E1',
+  cardBorder: '#D4A017',
+  brown: '#8B4513',
+  brownLight: '#8B7355',
+  button: '#F5A623',
+  buttonBorder: '#D4901E',
+};
+
+export const gameConfig = {
+  BIRD_SIZE: 38,
+  PIPE_WIDTH: 58,
+  PIPE_CAP_WIDTH: 70,
+  PIPE_CAP_HEIGHT: 28,
+  GAP_SIZE: 185,
+  GRAVITY: 0.48,
+  JUMP_FORCE: -8.5,
+  PIPE_SPEED: 2.8,
+  GROUND_HEIGHT: 85,
+  MIN_GAP_EDGE: 110,
+};
